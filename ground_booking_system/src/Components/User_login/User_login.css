@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#body {
+    background: url("../../assets/User_login_background.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    color: rgb(252, 252, 251);
+    font-size: 25px;
+    margin:0px 0px 20px 10px;
+    font-weight: bolder;
+
+}
+
+#login_container {
+    padding: 20px 5px;
+    width: 280px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px 2px rgba(254, 254, 254, 0.3);
+    backdrop-filter: blur(10px);
+
+}
+
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 40px;
+    width: 250px;
+    text-align: left;
+    margin: 10px 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: rgb(245, 243, 247);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+input::placeholder {
+    color: rgb(244, 242, 244);
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+#submitBtn {
+    width: 100px;
+    height: 35px;
+    font-weight: bolder;
+    color: hwb(197 91% 7%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+
+#submitBtn:hover {
+    color: grey;
+    background-color: #f8f8f9;
+    font-weight: bolder;
+
+}
+
+#signupPrompt {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f8f4f4;
+    margin-left: 20px;
+}
+
+#span{
+    font-weight: bolder;
+}
